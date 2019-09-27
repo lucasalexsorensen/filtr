@@ -90,7 +90,7 @@ function core:Init()
 	SlashCmdList.Filtr = HandleSlashCommands
 	
 	core:Print('Welcome back', UnitName('player')..'!')
-	core:CreateMainFrame('lfm')
+	-- core:CreateMainFrame('lfm')
 end
 
 local events = CreateFrame('Frame')
