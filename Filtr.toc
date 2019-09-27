@@ -1,0 +1,10 @@
+## Interface: 11302
+## Title : Filtr
+## Notes: This AddOn allows for filtering of global chat channels
+## Author: Lucas Sorensen <github.com/lucasalexsorensen>
+## Version: 0.0.1
+## DefaultState: enabled
+
+config.lua
+hooks.lua
+init.lua
