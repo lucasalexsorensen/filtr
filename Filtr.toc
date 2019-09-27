@@ -3,6 +3,7 @@
 ## Notes: This AddOn allows for filtering of global chat channels
 ## Author: Lucas Sorensen <github.com/lucasalexsorensen>
 ## Version: 0.0.1
+## X-Curse-Project-ID: 344440
 ## DefaultState: enabled
 
 config.lua
