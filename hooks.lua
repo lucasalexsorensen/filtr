@@ -65,8 +65,6 @@ function Hooks:ChatEvent(...)
     local target = args[5]
     local flags = args[6]
     local zone = args[7]
-
-    name, guild, level, race, class, zone, classFileName = GetWhoInfo(index)
     
     if string.find(msg:lower(), MainFrame.q) then
         scroller:AddMessage(author:gsub('-.*', '')..': '..msg)
