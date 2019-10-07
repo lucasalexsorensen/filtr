@@ -64,7 +64,7 @@ function Hooks:ChatEvent(...)
     local channel = args[4]
     local target = args[5]
     local flags = args[6]
-    local zone = args[7]
+--    local zone = args[7]
     
     if string.find(msg:lower(), MainFrame.q) then
         scroller:AddMessage(author:gsub('-.*', '')..': '..msg)
