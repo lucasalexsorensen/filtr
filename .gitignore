@@ -1,3 +1,7 @@
+.release
+release.sh
+.DS_Store
+
 # Compiled Lua sources
 luac.out
 
