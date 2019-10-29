@@ -86,7 +86,7 @@ function core:Init()
 	SLASH_Filtr1 = '/filtr'
 	SlashCmdList.Filtr = HandleSlashCommands
 	
-	core:Print('Welcome back', UnitName('player')..'!')
+	-- core:Print('Welcome back', UnitName('player')..'!')
 	-- core:CreateMainFrame('lfm')
 end
 
