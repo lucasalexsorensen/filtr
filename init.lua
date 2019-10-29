@@ -74,11 +74,8 @@ function core:HandleEvents(event, ...)
 end
 
 function core:Init()
-	----------------------------------
-	-- Register Slash Commands!
-	----------------------------------
-	SLASH_RELOADUI1 = '/rl' -- new slash command for reloading UI
-	SlashCmdList.RELOADUI = ReloadUI
+	-- SLASH_RELOADUI1 = '/rl' -- new slash command for reloading UI
+	-- SlashCmdList.RELOADUI = ReloadUI
 
 	SLASH_FRAMESTK1 = '/fs' -- new slash command for showing framestack tool
 	SlashCmdList.FRAMESTK = function()
