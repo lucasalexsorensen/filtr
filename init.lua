@@ -77,11 +77,11 @@ function core:Init()
 	-- SLASH_RELOADUI1 = '/rl' -- new slash command for reloading UI
 	-- SlashCmdList.RELOADUI = ReloadUI
 
-	SLASH_FRAMESTK1 = '/fs' -- new slash command for showing framestack tool
-	SlashCmdList.FRAMESTK = function()
-		LoadAddOn('Blizzard_DebugTools')
-		FrameStackTooltip_Toggle()
-	end
+	-- SLASH_FRAMESTK1 = '/fs' -- new slash command for showing framestack tool
+	-- SlashCmdList.FRAMESTK = function()
+	-- 	LoadAddOn('Blizzard_DebugTools')
+	-- 	FrameStackTooltip_Toggle()
+	-- end
 
 	SLASH_Filtr1 = '/filtr'
 	SlashCmdList.Filtr = HandleSlashCommands
