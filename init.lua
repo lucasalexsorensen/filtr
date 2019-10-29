@@ -7,7 +7,7 @@ core.commands = {
 	['help'] = function()
 		print(' ')
 		core:Print('List of slash commands:')
-		core:Print('|cff00cc66/filtr config|r - shows config menu')
+		-- core:Print('|cff00cc66/filtr config|r - shows config menu')
 		core:Print('|cff00cc66/filtr help|r - shows help info')
 		print(' ')
 	end
